@@ -1,0 +1,20 @@
+{
+    "output_dir": "./outputs",
+    "exp_name": "10_pendula",
+    "training_h5_file": "train_10_pendula.hdf5",
+    "eval_h5_file": "test_10_pendula.hdf5",
+    "n_train": 4096,
+    "n_eval": 128,
+    "stride": 1,
+    "block_size": 60,
+    "batch_size": 64,
+    "epochs": 750,
+    "lr": 0.001,
+    "seed": 12345,
+    "plot_freq": 25,
+    "test_freq": 10,
+    "save_steps": 100,
+    "run_dir": "/home/jupyter/transformer_work_repo/code/koopman_embedding/embedding_part/./outputs/embedding_10_pendula/ntrain4096_epochs750_batch64",
+    "ckpt_dir": "/home/jupyter/transformer_work_repo/code/koopman_embedding/embedding_part/./outputs/embedding_10_pendula/ntrain4096_epochs750_batch64/checkpoints",
+    "plot_dir": "/home/jupyter/transformer_work_repo/code/koopman_embedding/embedding_part/./outputs/embedding_10_pendula/ntrain4096_epochs750_batch64/predictions"
+}

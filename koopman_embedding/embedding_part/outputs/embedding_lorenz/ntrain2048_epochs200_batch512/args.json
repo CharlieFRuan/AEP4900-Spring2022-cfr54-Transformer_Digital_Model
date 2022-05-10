@@ -1,0 +1,20 @@
+{
+    "output_dir": "./outputs",
+    "exp_name": "lorenz",
+    "training_h5_file": "/Users/charlieruan/projects_data/McMahon/data/lorenz_training_rk.hdf5",
+    "eval_h5_file": "/Users/charlieruan/projects_data/McMahon/data/lorenz_valid_rk.hdf5",
+    "n_train": 2048,
+    "n_eval": 128,
+    "stride": 1,
+    "block_size": 16,
+    "batch_size": 512,
+    "epochs": 200,
+    "lr": 0.001,
+    "seed": 12345,
+    "plot_freq": 25,
+    "test_freq": 10,
+    "save_steps": 100,
+    "run_dir": "/Users/charlieruan/Desktop/Cornell/McMahon Lab/transfomer_work/code/koopman_embedding/transformer_part/./outputs/embedding_lorenz/ntrain2048_epochs200_batch512",
+    "ckpt_dir": "/Users/charlieruan/Desktop/Cornell/McMahon Lab/transfomer_work/code/koopman_embedding/transformer_part/./outputs/embedding_lorenz/ntrain2048_epochs200_batch512/checkpoints",
+    "plot_dir": "/Users/charlieruan/Desktop/Cornell/McMahon Lab/transfomer_work/code/koopman_embedding/transformer_part/./outputs/embedding_lorenz/ntrain2048_epochs200_batch512/predictions"
+}

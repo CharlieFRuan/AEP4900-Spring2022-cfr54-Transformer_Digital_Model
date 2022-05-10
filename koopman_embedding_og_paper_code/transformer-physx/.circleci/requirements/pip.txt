@@ -1,0 +1,6 @@
+# This file may be used to create an environment using:
+# $ pip install -r pip_requirements.txt
+# platform: linux-64
+
+scipy==1.6.3
+matplotlib==3.4.2
